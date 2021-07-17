@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="markdownstyle.css" rel="stylesheet">
+    <script src="markedjs.js"></script>
+</head>
+<body>
+<div id="content"></div>
+<script>
+    function load(filename) {
+        fetch(filename).then(response => response.text()).then(text => document.getElementById('content').innerHTML = marked(text))
+    }
+</script>
+</body>
+</html>

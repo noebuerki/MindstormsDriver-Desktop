@@ -1,0 +1,152 @@
+/*https://github.com/rhiokim/markdown-css/blob/master/assets/css/markdown.css*/
+:root {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+a, a:visited {
+    color: #4B72A6;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1,
+h2 {
+    padding-bottom: 1px;
+    border-bottom: #cccccc solid 1px;
+}
+h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 1.5em 0 1em 0;
+}
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 1.275em 0 0.85em 0;
+}
+h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 1.125em 0 0.75em 0;
+}
+h4 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0.99em 0 0.66em 0;
+}
+h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0.855em 0 0.57em 0;
+}
+h6 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.75em 0 0.5em 0;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    margin-top: 0;
+}
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+    margin-top: 0;
+}
+hr {
+    border: 1px solid #cccccc;
+}
+p {
+    margin: 1em 0;
+    word-wrap: break-word;
+}
+ol {
+    list-style-type: decimal;
+}
+li {
+    display: list-item;
+    line-height: 1.4em;
+}
+blockquote {
+    margin: 1em 20px;
+}
+blockquote > :first-child {
+    margin-top: 0;
+}
+blockquote > :last-child {
+    margin-bottom: 0;
+}
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+.code {
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+pre {
+    border-radius: 3px;
+    word-wrap: break-word;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    padding: .5em;
+}
+pre code {
+    border: 0;
+    display: block;
+}
+pre.hljs,
+pre > code {
+    font-weight: bold;
+    white-space: pre;
+}
+code {
+    font-family: Menlo, Consolas, Inconsolata, Courier, monospace;
+    border-radius: 3px;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 3px;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+mark {
+    color: #000;
+    background-color: #fcf8e3;
+}
+table {
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 16px;
+}
+table tr th,
+table tr td {
+    border: 1px solid #cccccc;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th {
+    font-weight: bold;
+}
+table tr th > :first-child {
+    margin-top: 0;
+}
+table tr th > :last-child {
+    margin-bottom: 0;
+}
+table tr td > :first-child {
+    margin-top: 0;
+}
+table tr td > :last-child {
+    margin-bottom: 0;
+}
